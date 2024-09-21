@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         body.classList.remove('no-animations');
         originalContent.classList.replace('hidden', 'visible');
         centerBox.style.opacity = 0;
-      }, 8000);  // Tiempo para que desaparezca la animación
+      }, 9400);  // Tiempo para que desaparezca la animación
     } else {
       // Mostrar la imagen durante 10 segundos
       setTimeout(() => {
@@ -41,5 +41,5 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Alternar cada 50 segundos (40 segundos de animación + 10 segundos de imagen)
-  setInterval(toggleVisibility, 40000);
+  setInterval(toggleVisibility, 41000);
 });
